@@ -1,7 +1,7 @@
-all: src
+all: scheduler
 
-src: src.cpp
-	g++ src.cpp -o lab6
+scheduler: src.cpp
+	g++ src.cpp -o scheduler
 	
 clean:
-	@rm -f lab6
+	@rm -f scheduler

@@ -25,10 +25,10 @@ This command-line simulator models and compares CPU scheduling policies over a p
 
 ```bash
 make
-./lab6
+./scheduler
 ```
 
-The `Makefile` compiles `src.cpp` into the `lab6` executable using `g++`.
+The `Makefile` compiles `src.cpp` with `g++`. Name the executable `scheduler` when building manually with `g++ src.cpp -o scheduler`.
 
 ## Output
 
@@ -40,7 +40,7 @@ The simulator reports each policy's scheduling timeline along with waiting, turn
 .
 ├── src.cpp       # Scheduling simulation and reporting
 ├── Makefile       # Build instructions
-└── lab6           # Compiled executable for the original environment
+└── Makefile        # Build configuration
 ```
 
 ## Author
